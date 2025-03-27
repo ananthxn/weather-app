@@ -5,7 +5,8 @@ const CurrentWeather = ({ data }) => {
         <div className="weather">
 
             <div className="top">
-                <div>
+                <div className="location">
+                    <p className="date"> {new Date().toDateString()} </p>
                     <p className="city"> {data.city} </p>
                     <p className="weather-description"> {data.weather[0].description}</p>
                 </div>

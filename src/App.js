@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Search from "./components/search/search";
 import CurrentWeather from "./components/current-weather/current-weather";
-import Forecast from "./components/forecast/forecast";
+import Forecast from "./components/forecast/forecast-weather";
 import { weatherAPIurl, weatherAPIkey } from "./api";
 
 function App() {
